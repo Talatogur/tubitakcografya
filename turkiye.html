@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TUBITAK 2204-A</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Css/turkiye.css" type="text/css" />
+  </head>
+  <body>
+    <script src="Js/turkiye.js"></script>
+    <div class="navbar">
+      <h1><a href="index.html">TUBITAK 2204-A</a></h1>
+    </div>
+    <div class="row">
+      <div class="col-8 col-s-9">
+        <img id="map" width="100%" height="100%" src="Img/turkiyehar.png" />
+      </div>
+      <div class="col-4 col-s-3 menu">
+        <ul>
+          <li id="1" onclick="imgchange(this.id)">Genel Harita</li> <!--imgchange fonksiyonu resimi ve açıklamayı değiştirmek için turkiye.jste tanımlanmıştır.-->
+          <li id="2" onclick="imgchange(this.id)">Bozkır Toprakları</li>
+          <li id="3" onclick="imgchange(this.id)">Terra Rossa Toprakları</li>
+          <li id="4" onclick="imgchange(this.id)">
+            Kahverengi Orman Toprakları
+          </li>
+          <li id="5" onclick="imgchange(this.id)">Podzol Toprakları</li>
+          <li id="6" onclick="imgchange(this.id)">Çernezyom Topraklar</li>
+          <li id="7" onclick="imgchange(this.id)">Tuzlu Topraklar</li>
+          <li id="8" onclick="imgchange(this.id)">Vertisoller</li>
+          <li id="9" onclick="imgchange(this.id)">Hidromorfik Topraklar</li>
+          <li id="10" onclick="imgchange(this.id)">Alüvyal Topraklar</li>
+          <li id="11" onclick="imgchange(this.id)">Regosol Topraklar</li>
+          <li id="12" onclick="imgchange(this.id)">Litosol Topraklar</li>
+          <li id="13" onclick="imgchange(this.id)">Rendzinalar</li>
+        </ul>
+      </div>
+    </div>
+    <div style="background-color: #33b5e5" class="row">
+      <div id="explanationres" class="col-3 explanation">
+        <img
+          id="expimg"
+          src="Img/turkiyeharitasi.png"
+          width="100%"
+          height="100%"
+        />
+      </div>
+      <div class="col-9 explanation">
+        <p id="exp">
+          TÜRKİYE'DE TOPRAKLARIN DAĞILIŞI VE GENEL ÖZELLİKLERİ <br /><br />
+          Türkiye'nin sahip olduğu iklim çeşitliliği, toprak türleri bakımından
+          oldukça zengin olmasını sağlamıştır (Harita 1.17). İklimin yanı sıra
+          yeryüzü şekillerinin çeşitlilik göstermesi, farklı kayaç türlerinin
+          görülmesi vb. nedenlerden dolayı aynı iklim özelliklerinin görüldüğü
+          alanlarda dahi farklı toprak tipleri oluşmuştur.
+        </p>
+      </div>
+    </div>
+    <div class="footer"><p>TUBITAK 2204-A</p></div>
+  </body>
+</html>

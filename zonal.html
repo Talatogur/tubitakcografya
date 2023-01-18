@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TUBITAK 2204-A</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Css/zonal.css" type="text/css" />
+  </head>
+  <body>
+    <script src="Js/zonal.js"></script>
+    <div class="navbar">
+      <h1><a href="index.html">TUBITAK 2204-A</a></h1>
+    </div>
+    <div class="row">
+      <div class="col-8 col-s-9">
+        <img id="map" width="100%" height="100%" src="Img/Genel Harita.png" />
+      </div>
+      <div class="col-4 col-s-3 menu">
+        <ul>
+          <li id="1" onclick="imgchange(this.id)">Genel Harita</li><!--imgchange fonksiyonu resimi ve açıklamayı değiştirmek için zonal.jste tanımlanmıştır.-->
+          <li id="2" onclick="imgchange(this.id)">Tundra Toprakları</li>
+          <li id="3" onclick="imgchange(this.id)">Podzol Toprakları</li>
+          <li id="4" onclick="imgchange(this.id)">Orman Toprakları</li>
+          <li id="5" onclick="imgchange(this.id)">Terra Rossa Toprakları</li>
+          <li id="6" onclick="imgchange(this.id)">Laterit Topraklar</li>
+          <li id="7" onclick="imgchange(this.id)">Çernezyom Topraklar</li>
+          <li id="8" onclick="imgchange(this.id)">Çöl Toprakları</li>
+          <li id="9" onclick="imgchange(this.id)">Dağ Toprakları</li>
+          <li id="10" onclick="imgchange(this.id)">Kutup Toprakları</li>
+          <li id="11" onclick="imgchange(this.id)">
+            Kırmızı Kestane Toprakları
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div style="background-color: #33b5e5" class="row">
+      <div id="explanationres" class="col-3 explanation">
+        <img
+          id="expimg"
+          src="Img/Zonal-Topraklar.jpg"
+          width="100%"
+          height="100%"
+        />
+      </div>
+      <div class="col-9 explanation">
+        <p id="exp">
+          ZONAL TOPRAKLAR <br /><br />
+          Zonal Topraklar Bir bölgede etkili olan iklim ve bitki örtüsü
+          şartlarına göre düz veya hafif eğimli yamaçlarda anakayanın ayrışması
+          sonucu oluşan topraklardır. Bütün horizonların bulunduğu bu
+          toprakların dağılışı, yeryüzündeki iklim ve bitki örtüsünün
+          dağılışıyla genel olarak uyumludur.
+        </p>
+      </div>
+    </div>
+    <div class="footer"><p>TUBITAK 2204-A</p></div>
+  </body>
+</html>
